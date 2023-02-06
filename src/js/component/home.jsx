@@ -37,7 +37,7 @@ const Home = () => {
 			<div className="d-flex align-items-center justify-content-evenly mb-4">
 				{cardData.map((item, index) => {
 					return (
-						<Card data={item}/>
+						<Card data={item} key={index}/>
 					)
 				})}
 			</div>
